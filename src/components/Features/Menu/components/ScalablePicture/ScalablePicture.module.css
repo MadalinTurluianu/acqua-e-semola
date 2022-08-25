@@ -1,0 +1,29 @@
+.scalablePicture {
+  border-radius: 50%;
+  border: 3px solid white;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  transform: translate(0, 1rem);
+}
+
+.scalablePicture div {
+  overflow: hidden;
+  border-radius: 50%;
+  height: 96%;
+  width: 96%;
+  box-shadow: -3px 6px 8px var(--color-shadow);
+}
+
+.scalablePicture img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  transform: scale(1.1);
+}

@@ -1,0 +1,9 @@
+.lineBar {
+  width: 100%;
+  height: 1px;
+  border-radius: 5px;
+  background-color: var(--color-shade);
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}

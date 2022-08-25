@@ -1,4 +1,4 @@
-import Logo from "./components/Logo/Logo";
+import Logo from "../../../Features/Logo/Logo";
 import styles from "./Header.module.css";
 
 function Header() {

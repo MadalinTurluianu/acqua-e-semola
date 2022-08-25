@@ -1,0 +1,28 @@
+.menuItem {
+  display: flex;
+  position: relative;
+  width: clamp(20rem, 100%, 50rem);
+  margin-bottom: 5rem;
+}
+
+.menuItem h3 {
+  padding-left: 1rem;
+}
+
+.menuItem p {
+  padding-left: 1rem;
+  max-width: 80%;
+}
+
+.textContent {
+  width: 80%;
+  position: relative;
+}
+
+.price {
+  margin-left: 1rem;
+}
+
+.ingredients {
+  color: var(--text-shade)
+}
