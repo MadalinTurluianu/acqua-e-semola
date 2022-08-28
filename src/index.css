@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Menu-Font";
+  src: url("./assets/fonts/Charm-Regular.ttf");
+}
+
 html {
   --color-green: #50b04d;
   --color-yellow: #ffed00;

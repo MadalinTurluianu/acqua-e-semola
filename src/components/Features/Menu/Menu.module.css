@@ -5,8 +5,14 @@
   align-items: center;
 }
 
-.menu>h2 {
+.title {
+  position: relative;
   margin-bottom: 6rem;
+}
+
+.title>h2 {
+  font-family: Menu-Font;
+  font-size: 2rem;
 }
 
 .menu>div {

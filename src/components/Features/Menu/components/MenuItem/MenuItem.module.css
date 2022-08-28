@@ -16,6 +16,8 @@
 
 .menuItem h3 {
   padding-left: 1rem;
+  font-family: Menu-Font;
+  font-size: 1.5rem;
 }
 
 .menuItem p {

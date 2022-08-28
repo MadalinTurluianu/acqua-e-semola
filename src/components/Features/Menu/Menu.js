@@ -1,3 +1,4 @@
+import LineBar from "../../general/components/LineBar/LineBar";
 import MenuItem from "./components/MenuItem/MenuItem";
 
 import menuData from "./menu-data";
@@ -7,7 +8,10 @@ import styles from "./Menu.module.css";
 function Menu() {
   return (
     <section className={styles.menu}>
-      <h2>I nostri prodotti</h2>
+      <div className={styles.title}>
+        <h2>I nostri prodotti</h2>
+        <LineBar />
+      </div>
       <div>
         {menuData.map((product, index) => (
           <MenuItem

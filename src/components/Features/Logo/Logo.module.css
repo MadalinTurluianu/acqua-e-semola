@@ -1,4 +1,3 @@
 .logo {
-    margin-top: 5rem;
     width: clamp(10rem, 90vw, 60rem);
 }
