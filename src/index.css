@@ -7,7 +7,7 @@ html {
   --color-green: #50b04d;
   --color-yellow: #ffed00;
   --color-shade: #e8e8e8;
-  --color-shadow: #cbcbcb;
+  --color-shadow: #d5d4d4;
   --color-background: white;
   --text-primart: black;
   --text-secondary: white;
@@ -21,6 +21,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background);
+  box-sizing: border-box;
 }
 
 code {

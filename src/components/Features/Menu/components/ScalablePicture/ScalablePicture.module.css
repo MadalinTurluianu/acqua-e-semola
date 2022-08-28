@@ -1,24 +1,66 @@
 .scalablePicture {
   border-radius: 50%;
-  border: 3px solid white;
   height: 10rem;
   width: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 12px 12px var(--color-shadow);
+  position: relative;
 }
 
-.scalablePicture div {
+.voidCyrcle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-background);
+  border-radius: 50%;
+  height: 9.5rem;
+  width: 9.5rem;
+}
+
+.void1 {
+  position: absolute;
+  background-color: var(--color-background);
+  left: 0.6rem;
+  top: 0.6rem;
+  z-index: 100;
+  width: 1.1rem;
+  height: 2rem;
+  transform: rotate(50deg);
+}
+
+.void2 {
+  position: absolute;
+  background-color: var(--color-background);
+  left: 0.5rem;
+  top: 1rem;
+  z-index: 100;
+  width: 1rem;
+  height: 2rem;
+  transform: rotate(30deg); 
+}
+
+.void3 {
+  position: absolute;
+  background-color: var(--color-background);
+  left: 2.5rem;
+  top: 0.4rem;
+  z-index: 100;
+  width: 0.6rem;
+  height: 0.5rem;
+  transform: rotate(-28deg);
+}
+
+.imageWrapper {
   overflow: hidden;
   border-radius: 50%;
-  height: 96%;
-  width: 96%;
-  box-shadow: -3px 6px 8px var(--color-shadow);
+  height: 88%;
+  width: 88%;
 }
 
 .scalablePicture img {
   border-radius: 50%;
-  height: 100%;
   width: 100%;
   transform: scale(1.1);
 }
