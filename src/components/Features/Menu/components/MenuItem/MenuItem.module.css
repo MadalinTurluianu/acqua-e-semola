@@ -5,6 +5,15 @@
   margin-bottom: 5rem;
 }
 
+.pictureWrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: var(--color-background);
+  transform: translate(0, 1rem);
+}
+
 .menuItem h3 {
   padding-left: 1rem;
 }
@@ -25,4 +34,34 @@
 
 .ingredients {
   color: var(--text-shade)
+}
+
+@media only screen and (max-width: 650px) {
+  .menuItem {
+    flex-direction: column;
+  }
+
+  .pictureWrapper {
+    position: relative;
+    transform: translate(0);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .menuItem h3 {
+    text-align: center;
+    padding: 0;
+  }
+
+  .menuItem p {
+    padding-left: 1rem;
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .textContent {
+    width: 100%;
+  }
 }

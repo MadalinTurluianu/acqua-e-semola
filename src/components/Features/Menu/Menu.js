@@ -5,7 +5,6 @@ import menuData from "./menu-data";
 import styles from "./Menu.module.css";
 
 function Menu() {
-    console.log(menuData);
   return (
     <section className={styles.menu}>
       <h2>I nostri prodotti</h2>
@@ -16,7 +15,10 @@ function Menu() {
             ingredients={product.ingredients}
             price={product.price}
             picture={product.picture}
-            color={index % 2 === 0 ? "var(--color-yellow)" : "var(--color-green)"}
+            color={
+              index % 2 === 0 ? "var(--color-yellow)" : "var(--color-green)"
+            }
+            key={`menu${index}`}
           />
         ))}
       </div>

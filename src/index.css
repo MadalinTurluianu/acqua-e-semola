@@ -1,11 +1,12 @@
 html {
-  --color-green: rgba(80, 176, 77, 1);
-  --color-yellow: rgba(255, 237, 0, 1);
-  --color-shade: rgb(232, 232, 232);
-  --color-shadow: rgb(203, 203, 203);
+  --color-green: #50b04d;
+  --color-yellow: #ffed00;
+  --color-shade: #e8e8e8;
+  --color-shadow: #cbcbcb;
+  --color-background: white;
   --text-primart: black;
   --text-secondary: white;
-  --text-shade: rgb(134, 133, 133);
+  --text-shade: #868585;
 }
 
 body {

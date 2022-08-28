@@ -1,4 +1,4 @@
-import Contacts from "../../../Features/Contacts/Contacts";
+import Contacts from "../../../features/Contacts/Contacts";
 
 import styles from "./Footer.module.css";
 

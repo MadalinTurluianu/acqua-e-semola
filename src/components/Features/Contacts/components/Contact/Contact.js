@@ -1,11 +1,12 @@
 import styles from "./Contact.module.css";
 
-function Contact({ title, value, icon }) {
+function Contact({ title, value, Icon, SpecialElement }) {
+
   return (
     <div className={styles.contact}>
-      <span>{`${title}:`}</span>
-      <span>{value}</span>
-      {icon && <img src={icon} />}
+      {Icon && <div className={styles.iconWrapper}>{<Icon />}</div>}
+      <span>{`${title}`}</span>
+      {SpecialElement ? SpecialElement : <span>{value}</span>}
     </div>
   );
 }
