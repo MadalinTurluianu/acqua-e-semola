@@ -6,12 +6,12 @@
 html {
   --color-green: #50b04d;
   --color-yellow: #ffed00;
-  --color-shade: #e8e8e8;
+  --color-shade: #a4a3a3;
   --color-shadow: #d5d4d4;
-  --color-background: #E1E8E0;
+  --color-background: #e1e8e0;
   --text-primart: black;
   --text-secondary: white;
-  --text-shade: #868585;
+  --text-shade: #646464;
 }
 
 body {
