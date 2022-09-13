@@ -9,6 +9,5 @@
 }
 
 .selected {
-  color: var(--color-yellow);
-  text-shadow: 0px 0px 1px var(--text-primary)
+  color: var(--color-green);
 }
