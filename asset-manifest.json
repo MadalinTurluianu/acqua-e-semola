@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/acqua-e-semola/static/css/main.e05a08d1.css",
+    "main.css": "/acqua-e-semola/static/css/main.91a04da3.css",
     "main.js": "/acqua-e-semola/static/js/main.aa7a247a.js",
     "static/media/pasta-al-sugo.png": "/acqua-e-semola/static/media/pasta-al-sugo.09a4b5bf27ad10503109.png",
     "static/media/logo.png": "/acqua-e-semola/static/media/logo.06755178345d05a527be.png",
@@ -9,11 +9,11 @@
     "index.html": "/acqua-e-semola/index.html",
     "static/media/mail.svg": "/acqua-e-semola/static/media/mail.b296dc3820046d99eb5b570f60c09d9e.svg",
     "static/media/location.svg": "/acqua-e-semola/static/media/location.8ed820373498e050ba489683231bdef4.svg",
-    "main.e05a08d1.css.map": "/acqua-e-semola/static/css/main.e05a08d1.css.map",
+    "main.91a04da3.css.map": "/acqua-e-semola/static/css/main.91a04da3.css.map",
     "main.aa7a247a.js.map": "/acqua-e-semola/static/js/main.aa7a247a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e05a08d1.css",
+    "static/css/main.91a04da3.css",
     "static/js/main.aa7a247a.js"
   ]
 }
