@@ -1,12 +1,12 @@
 import pastaAlSugoImg from "./assets/pictures/pasta-al-sugo.png";
 
 export const menuData = {
-  pasta: [
+  "pasta fresca": [
     {
-      title: "Pasta al sugo",
+      title: "Fettuccine",
       ingredients:
-        "Farina, uova, sale, passata di pomodoro, basilico e parmigiano",
-      price: 7,
+        "Al nero di seppia, allo zafferano, al basilico",
+      price: 8.50,
       picture: pastaAlSugoImg,
     },
     {
@@ -31,7 +31,7 @@ export const menuData = {
       picture: pastaAlSugoImg,
     },
   ],
-  lasagne: [
+  "piatti pronti": [
     {
       title: "Lasagna classica",
       ingredients:
@@ -40,4 +40,14 @@ export const menuData = {
       picture: pastaAlSugoImg,
     },
   ],
+  sughi: [
+    {
+      title: "Lasagna classica",
+      ingredients:
+        "Farina, uova, sale, passata di pomodoro, basilico e parmigiano",
+      price: 7,
+      picture: pastaAlSugoImg,
+    },
+  ],
+
 };

@@ -13,7 +13,8 @@
 .title>h2 {
   font-family: Menu-Font;
   font-size: 2.5rem;
-  color: var(--color-green);
+  color: var(--color-darkgreen);
+  text-shadow: 0px 1px 1px black;
 }
 
 .menu>div {

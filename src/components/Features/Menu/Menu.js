@@ -9,7 +9,7 @@ import { menuData } from "./menu-data";
 import styles from "./Menu.module.css";
 
 function Menu() {
-  const [selectedMenu, setSelectedMenu] = useState("pasta");
+  const [selectedMenu, setSelectedMenu] = useState("pasta fresca");
 
   const menuToShow = menuData[selectedMenu];
 
