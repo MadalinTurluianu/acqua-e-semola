@@ -6,13 +6,14 @@
 html {
   --color-darkgreen: #239738;
   --color-green: #50b04d;
-  --color-yellow: #ffed00;
+  --color-yellow: #ffee00;
   --color-shade: #a4a3a3;
   --color-shadow: #d5d4d4;
-  --color-background: #e1e8e0;
+  --color-background: #d0dece;
   --text-primary: black;
   --text-secondary: white;
   --text-shade: #646464;
+  font-size: clamp(90%, 2vw, 100%);
 }
 
 body {

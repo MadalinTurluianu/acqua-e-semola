@@ -3,15 +3,15 @@ import LineBar from "../../../../general/components/LineBar/LineBar";
 
 import styles from "./MenuItem.module.css";
 
-function MenuItem({ title, ingredients, price, picture, color }) {
+function MenuItem({ title, description, price, picture, color }) {
   return (
     <div className={styles.menuItem}>
       <div className={styles.textContent}>
         <h3>
           {title}
-          <span className={styles.price}>{`${price}€`}</span>
+          <span className={styles.price}>{price}</span>
         </h3>
-        <p className={styles.ingredients}>{ingredients}</p>
+        <p className={styles.ingredients}>{description}</p>
       </div>
       {picture && (
         <div className={styles.pictureWrapper}>
@@ -21,7 +21,7 @@ function MenuItem({ title, ingredients, price, picture, color }) {
           />
         </div>
       )}
-      <LineBar />
+      <LineBar position="absolute" bottom={0}/>
     </div>
   );
 }

@@ -21,25 +21,24 @@ function Menu() {
 
   return (
     <section className={styles.menu}>
-      <div className={styles.title}>
-        <h2>I nostri prodotti</h2>
-        <div>
-          {menuTypes.map((type) => (
-            <MenuNavigationButton
-              content={type[0].toUpperCase() + type.slice(1)}
-              clickHandler={clickHandler}
-              selected={selectedMenu === type}
-              key={type}
-            />
-          ))}
-        </div>
-        <LineBar style={{ width: "clamp(20rem, 100%, 60rem)" }} />
+      <h2 className={styles.title}>I nostri prodotti</h2>
+      <div className={styles.navigation}>
+        {menuTypes.map((type) => (
+          <MenuNavigationButton
+            content={type[0].toUpperCase() + type.slice(1)}
+            clickHandler={clickHandler}
+            selected={selectedMenu === type}
+            key={type}
+          />
+        ))}
       </div>
-      <div>
+      <LineBar width="clamp(20rem, 100%, 60rem)" />
+
+      <div className={styles.products}>
         {menuToShow.map((product, index) => (
           <MenuItem
             title={product.title}
-            ingredients={product.ingredients}
+            description={product.description}
             price={product.price}
             picture={product.picture}
             color={

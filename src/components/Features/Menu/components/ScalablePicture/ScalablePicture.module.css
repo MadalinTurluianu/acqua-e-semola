@@ -1,7 +1,24 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  } 100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes invert-rotate {
+  0% {
+    transform: rotate(0deg) scale(1.1);
+  } 100% {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
 .scalablePicture {
+  animation: rotate 30s infinite linear;
   border-radius: 50%;
-  height: 10rem;
-  width: 10rem;
+  height: 9.1rem;
+  width: 9.1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,19 +32,19 @@
   justify-content: center;
   background-color: var(--color-background);
   border-radius: 50%;
-  height: 9.5rem;
-  width: 9.5rem;
+  height: 8.7rem;
+  width: 8.7rem;
 }
 
 .void1 {
   position: absolute;
   background-color: var(--color-background);
-  left: 0.6rem;
-  top: 0.6rem;
+  left: 1.2rem;
+  top: 0.7rem;
   z-index: 100;
-  width: 1.1rem;
-  height: 2rem;
-  transform: rotate(50deg);
+  width: 0.6rem;
+  height: 1.2rem;
+  transform: rotate(52deg);
 }
 
 .void2 {
@@ -36,7 +53,7 @@
   left: 0.5rem;
   top: 1rem;
   z-index: 100;
-  width: 1rem;
+  width: 0.8rem;
   height: 2rem;
   transform: rotate(30deg); 
 }
@@ -44,23 +61,25 @@
 .void3 {
   position: absolute;
   background-color: var(--color-background);
-  left: 2.5rem;
-  top: 0.4rem;
+  left: 2.4rem;
+  top: 0.3rem;
   z-index: 100;
-  width: 0.6rem;
-  height: 0.5rem;
+  width: 0.5rem;
+  height: 0.4rem;
   transform: rotate(-28deg);
 }
 
 .imageWrapper {
   overflow: hidden;
   border-radius: 50%;
-  height: 88%;
-  width: 88%;
+  height: 90%;
+  width: 90%;
 }
 
 .scalablePicture img {
+  animation: invert-rotate 30s infinite linear;
   border-radius: 50%;
   width: 100%;
+  height: 100%;
   transform: scale(1.1);
 }
