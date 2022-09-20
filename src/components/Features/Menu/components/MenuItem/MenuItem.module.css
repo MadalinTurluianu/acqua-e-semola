@@ -42,6 +42,7 @@
 @media only screen and (max-width: 650px) {
   .menuItem {
     flex-direction: column;
+    margin-bottom: 2rem;
   }
 
   .pictureWrapper {

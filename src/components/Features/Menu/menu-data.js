@@ -145,14 +145,21 @@ export const menuData = {
       picture: pastaAlSugoImg,
     },
     {
-      title: " Cannelloni di ricotta cotti al pomodoro e basilico",
+      title: "Cannelloni di ricotta cotti al pomodoro e basilico",
       price: "6€",
       picture: pastaAlSugoImg,
     },
     {
-      title: " Cannelloni di ricotta cotti al sugo rosa",
+      title: "Cannelloni di ricotta cotti al sugo rosa",
       price: "6€",
       picture: pastaAlSugoImg,
     },
   ],
+  sughi: [
+    {
+      title: "Cannelloni di ricotta cotti al sugo rosa",
+      price: "6€",
+      picture: pastaAlSugoImg,
+    },
+  ]
 };
