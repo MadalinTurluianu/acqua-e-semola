@@ -40,7 +40,7 @@ function Menu() {
             title={product.title}
             description={product.description}
             price={product.price}
-            picture={product.picture}
+            icons={product.icons}
             color={
               index % 2 === 0 ? "var(--color-yellow)" : "var(--color-green)"
             }

@@ -1,6 +1,6 @@
-import styles from "./ScalablePicture.module.css";
+import styles from "./RotatingIcon.module.css";
 
-function ScalablePicture({ picture, style }) {
+function RotatingIcon({ picture, style }) {
   return (
     <div className={styles.scalablePicture} style={style}>
       <div className={styles.voidCyrcle}>
@@ -15,4 +15,4 @@ function ScalablePicture({ picture, style }) {
   );
 }
 
-export default ScalablePicture;
+export default RotatingIcon;
