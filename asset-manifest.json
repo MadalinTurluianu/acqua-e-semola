@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/acqua-e-semola/static/css/main.514e2fb8.css",
-    "main.js": "/acqua-e-semola/static/js/main.ecec31ac.js",
-    "static/media/pasta-al-sugo.png": "/acqua-e-semola/static/media/pasta-al-sugo.09a4b5bf27ad10503109.png",
+    "main.css": "/acqua-e-semola/static/css/main.34f26620.css",
+    "main.js": "/acqua-e-semola/static/js/main.1556235e.js",
     "static/media/logo.png": "/acqua-e-semola/static/media/logo.06755178345d05a527be.png",
     "static/media/Charm-Regular.ttf": "/acqua-e-semola/static/media/Charm-Regular.c76a059b4002b52f4682.ttf",
+    "static/media/image-unavailable-icon.jpg": "/acqua-e-semola/static/media/image-unavailable-icon.c707537cb31a911024fe.jpg",
     "static/media/phone.svg": "/acqua-e-semola/static/media/phone.1bf2f582a4106a477c65a7a873c71f81.svg",
     "index.html": "/acqua-e-semola/index.html",
     "static/media/mail.svg": "/acqua-e-semola/static/media/mail.b296dc3820046d99eb5b570f60c09d9e.svg",
     "static/media/location.svg": "/acqua-e-semola/static/media/location.8ed820373498e050ba489683231bdef4.svg",
-    "main.514e2fb8.css.map": "/acqua-e-semola/static/css/main.514e2fb8.css.map",
-    "main.ecec31ac.js.map": "/acqua-e-semola/static/js/main.ecec31ac.js.map"
+    "main.34f26620.css.map": "/acqua-e-semola/static/css/main.34f26620.css.map",
+    "main.1556235e.js.map": "/acqua-e-semola/static/js/main.1556235e.js.map"
   },
   "entrypoints": [
-    "static/css/main.514e2fb8.css",
-    "static/js/main.ecec31ac.js"
+    "static/css/main.34f26620.css",
+    "static/js/main.1556235e.js"
   ]
 }
