@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/acqua-e-semola/static/css/main.34f26620.css",
-    "main.js": "/acqua-e-semola/static/js/main.25bb3f82.js",
+    "main.js": "/acqua-e-semola/static/js/main.10fe7aa5.js",
     "static/media/gnocchi-di-patate_icon.jpg": "/acqua-e-semola/static/media/gnocchi-di-patate_icon.b5ad601883816fff28b9.jpg",
     "static/media/logo.png": "/acqua-e-semola/static/media/logo.06755178345d05a527be.png",
     "static/media/trenette-al-pomodoro_icon.jpg": "/acqua-e-semola/static/media/trenette-al-pomodoro_icon.4f290e33b995fb989a03.jpg",
     "static/media/Charm-Regular.ttf": "/acqua-e-semola/static/media/Charm-Regular.c76a059b4002b52f4682.ttf",
-    "static/media/image-unavailable-icon.jpg": "/acqua-e-semola/static/media/image-unavailable-icon.c707537cb31a911024fe.jpg",
+    "static/media/image-unavailable-icon.jpg": "/acqua-e-semola/static/media/image-unavailable-icon.db8ca7147fc8a8d92289.jpg",
     "static/media/phone.svg": "/acqua-e-semola/static/media/phone.1bf2f582a4106a477c65a7a873c71f81.svg",
     "index.html": "/acqua-e-semola/index.html",
     "static/media/mail.svg": "/acqua-e-semola/static/media/mail.b296dc3820046d99eb5b570f60c09d9e.svg",
     "static/media/location.svg": "/acqua-e-semola/static/media/location.8ed820373498e050ba489683231bdef4.svg",
     "main.34f26620.css.map": "/acqua-e-semola/static/css/main.34f26620.css.map",
-    "main.25bb3f82.js.map": "/acqua-e-semola/static/js/main.25bb3f82.js.map"
+    "main.10fe7aa5.js.map": "/acqua-e-semola/static/js/main.10fe7aa5.js.map"
   },
   "entrypoints": [
     "static/css/main.34f26620.css",
-    "static/js/main.25bb3f82.js"
+    "static/js/main.10fe7aa5.js"
   ]
 }
