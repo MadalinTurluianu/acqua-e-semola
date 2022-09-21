@@ -1,4 +1,6 @@
 import imageUnavailableIcon from "./assets/images/image-unavailable-icon.jpg";
+import trenettePomodoroIcon from "./assets/images/trenette-al-pomodoro_icon.jpg";
+import gnocchiIcon from "./assets/images/gnocchi-di-patate_icon.jpg";
 
 export const menuData = {
   "pasta fresca": [
@@ -21,7 +23,7 @@ export const menuData = {
       description:
         "Varietà: al nero di seppia, allo zafferano, al pomodoro, alla rapa rossa, agli spinaci. Con varietà 10€ al kg",
       price: "8.50€ al kg",
-      picture: imageUnavailableIcon,
+      picture: trenettePomodoroIcon,
     },
     {
       title: "Pappardelle",
@@ -50,7 +52,7 @@ export const menuData = {
     {
       title: "Gnocchi di patate",
       price: "9€ al kg",
-      picture: imageUnavailableIcon,
+      picture: gnocchiIcon,
     },
     {
       title: "Ravioli alla ricotta",
@@ -161,5 +163,5 @@ export const menuData = {
       price: "6€",
       picture: imageUnavailableIcon,
     },
-  ]
+  ],
 };
