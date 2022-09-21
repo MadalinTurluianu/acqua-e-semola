@@ -1,21 +1,28 @@
 {
   "files": {
-    "main.css": "/acqua-e-semola/static/css/main.34f26620.css",
-    "main.js": "/acqua-e-semola/static/js/main.10fe7aa5.js",
-    "static/media/gnocchi-di-patate_icon.jpg": "/acqua-e-semola/static/media/gnocchi-di-patate_icon.b5ad601883816fff28b9.jpg",
+    "main.css": "/acqua-e-semola/static/css/main.37cdd7c6.css",
+    "main.js": "/acqua-e-semola/static/js/main.40febc79.js",
+    "static/media/gnocchi-di-patate_icon.jpg": "/acqua-e-semola/static/media/gnocchi-di-patate_icon.5306e117f4002fd05715.jpg",
+    "static/media/tortellini.jpg": "/acqua-e-semola/static/media/tortellini.6c1785409ec7e86d70d5.jpg",
+    "static/media/trenette-alla-rapa-rossa_icon.jpg": "/acqua-e-semola/static/media/trenette-alla-rapa-rossa_icon.50dd97074f501a18c12d.jpg",
+    "static/media/reginette.jpg": "/acqua-e-semola/static/media/reginette.831cf4d8139bcfd38f7b.jpg",
     "static/media/logo.png": "/acqua-e-semola/static/media/logo.06755178345d05a527be.png",
-    "static/media/trenette-al-pomodoro_icon.jpg": "/acqua-e-semola/static/media/trenette-al-pomodoro_icon.4f290e33b995fb989a03.jpg",
+    "static/media/trenette-allo-zafferano_icon.jpg": "/acqua-e-semola/static/media/trenette-allo-zafferano_icon.8b1688c5b6893192cd89.jpg",
+    "static/media/trenette-al-pomodoro_icon.jpg": "/acqua-e-semola/static/media/trenette-al-pomodoro_icon.2c865829920ea547ac05.jpg",
+    "static/media/ravioli-ricotta-salmone-lime.jpg": "/acqua-e-semola/static/media/ravioli-ricotta-salmone-lime.ec3c25b1cc74e7677ba6.jpg",
+    "static/media/trenette-agli-spinaci_icon.jpg": "/acqua-e-semola/static/media/trenette-agli-spinaci_icon.8fbea11682ef50816d3a.jpg",
+    "static/media/trenette-al-nero-di-seppia_icon.jpg": "/acqua-e-semola/static/media/trenette-al-nero-di-seppia_icon.93c8ca747d88aec82168.jpg",
     "static/media/Charm-Regular.ttf": "/acqua-e-semola/static/media/Charm-Regular.c76a059b4002b52f4682.ttf",
     "static/media/image-unavailable-icon.jpg": "/acqua-e-semola/static/media/image-unavailable-icon.db8ca7147fc8a8d92289.jpg",
     "static/media/phone.svg": "/acqua-e-semola/static/media/phone.1bf2f582a4106a477c65a7a873c71f81.svg",
     "index.html": "/acqua-e-semola/index.html",
     "static/media/mail.svg": "/acqua-e-semola/static/media/mail.b296dc3820046d99eb5b570f60c09d9e.svg",
     "static/media/location.svg": "/acqua-e-semola/static/media/location.8ed820373498e050ba489683231bdef4.svg",
-    "main.34f26620.css.map": "/acqua-e-semola/static/css/main.34f26620.css.map",
-    "main.10fe7aa5.js.map": "/acqua-e-semola/static/js/main.10fe7aa5.js.map"
+    "main.37cdd7c6.css.map": "/acqua-e-semola/static/css/main.37cdd7c6.css.map",
+    "main.40febc79.js.map": "/acqua-e-semola/static/js/main.40febc79.js.map"
   },
   "entrypoints": [
-    "static/css/main.34f26620.css",
-    "static/js/main.10fe7aa5.js"
+    "static/css/main.37cdd7c6.css",
+    "static/js/main.40febc79.js"
   ]
 }
