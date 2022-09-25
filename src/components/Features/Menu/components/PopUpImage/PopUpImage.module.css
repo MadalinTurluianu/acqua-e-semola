@@ -3,6 +3,7 @@
   height: clamp(18rem, 50vw, 30rem);
   border-radius: 10px;
   position: relative;
+  margin-bottom: 10vh;
 }
 
 .container > img {
