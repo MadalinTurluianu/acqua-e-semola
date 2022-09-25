@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/acqua-e-semola/static/css/main.37cdd7c6.css",
-    "main.js": "/acqua-e-semola/static/js/main.40febc79.js",
+    "main.css": "/acqua-e-semola/static/css/main.8de05ad1.css",
+    "main.js": "/acqua-e-semola/static/js/main.70b44006.js",
+    "static/media/fettuccine-rapa-rossa_icon.jpg": "/acqua-e-semola/static/media/fettuccine-rapa-rossa_icon.7ede486fdf003deea578.jpg",
+    "static/media/fettuccine_icon.jpg": "/acqua-e-semola/static/media/fettuccine_icon.140acf1084a6f87130af.jpg",
+    "static/media/fettuccine-zafferano_icon.jpg": "/acqua-e-semola/static/media/fettuccine-zafferano_icon.67f50fce5de9fdc8afac.jpg",
+    "static/media/fettuccine-spinaci_icon.jpg": "/acqua-e-semola/static/media/fettuccine-spinaci_icon.d455ffa336098c69e0e7.jpg",
     "static/media/gnocchi-di-patate_icon.jpg": "/acqua-e-semola/static/media/gnocchi-di-patate_icon.5306e117f4002fd05715.jpg",
     "static/media/tortellini.jpg": "/acqua-e-semola/static/media/tortellini.6c1785409ec7e86d70d5.jpg",
     "static/media/trenette-alla-rapa-rossa_icon.jpg": "/acqua-e-semola/static/media/trenette-alla-rapa-rossa_icon.50dd97074f501a18c12d.jpg",
@@ -17,12 +21,14 @@
     "static/media/phone.svg": "/acqua-e-semola/static/media/phone.1bf2f582a4106a477c65a7a873c71f81.svg",
     "index.html": "/acqua-e-semola/index.html",
     "static/media/mail.svg": "/acqua-e-semola/static/media/mail.b296dc3820046d99eb5b570f60c09d9e.svg",
+    "static/media/left-arrow.svg": "/acqua-e-semola/static/media/left-arrow.159793e1515b8f3f986f82ce28ada30f.svg",
+    "static/media/right-arrow.svg": "/acqua-e-semola/static/media/right-arrow.484c77baca8c309f35cebe2a65b28466.svg",
     "static/media/location.svg": "/acqua-e-semola/static/media/location.8ed820373498e050ba489683231bdef4.svg",
-    "main.37cdd7c6.css.map": "/acqua-e-semola/static/css/main.37cdd7c6.css.map",
-    "main.40febc79.js.map": "/acqua-e-semola/static/js/main.40febc79.js.map"
+    "main.8de05ad1.css.map": "/acqua-e-semola/static/css/main.8de05ad1.css.map",
+    "main.70b44006.js.map": "/acqua-e-semola/static/js/main.70b44006.js.map"
   },
   "entrypoints": [
-    "static/css/main.37cdd7c6.css",
-    "static/js/main.40febc79.js"
+    "static/css/main.8de05ad1.css",
+    "static/js/main.70b44006.js"
   ]
 }
