@@ -83,6 +83,11 @@
     margin-bottom: 2rem;
   }
 
+  .pointerIconContainer {
+    right: auto;
+    margin-left: 6rem;
+  }
+
   .pictureWrapper {
     position: relative;
     transform: translate(0);
