@@ -1,0 +1,42 @@
+.container {
+  width: clamp(18rem, 50vw, 30rem);
+  height: clamp(18rem, 50vw, 30rem);
+  border-radius: 10px;
+  position: relative;
+}
+
+.container > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 2000;
+  top: 0;
+  height: 100%;
+  width: 3.5rem;
+  display: flex;
+  align-items: center;
+  fill: var(--color-green);
+  cursor: pointer;
+}
+
+.right {
+  right: -3.5rem;
+  justify-content: flex-end;
+}
+
+.left {
+  left: -3.5rem;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    width: calc(100% - 7rem);
+    height: calc(100% - 7rem);
+    margin-left: 3.5rem;
+  }
+}
+

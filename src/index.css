@@ -25,9 +25,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--color-background);
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#overlay-root {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
 }

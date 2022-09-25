@@ -8,15 +8,29 @@ import gnocchiIcon from "./assets/images/gnocchi-di-patate_icon.jpg";
 import tortelliniIcon from "./assets/images/tortellini.jpg";
 import ravioliSalmoneLimeIcon from "./assets/images/ravioli-ricotta-salmone-lime.jpg";
 import reginetteIcon from "./assets/images/reginette.jpg";
+import fettuccineIcon from "./assets/images/fettuccine_icon.jpg";
+import fettuccineRapaRossaIcon from "./assets/images/fettuccine-rapa-rossa_icon.jpg";
+import fettuccineSpinaciIcon from "./assets/images/fettuccine-spinaci_icon.jpg";
+import fettuccineZafferanoIcon from "./assets/images/fettuccine-zafferano_icon.jpg";
 
 export const menuData = {
   "pasta fresca": [
+    {
+      title: "Tortellini di carne",
+      price: "20€ al kg",
+      icons: [tortelliniIcon],
+    },
     {
       title: "Fettuccine",
       description:
         "Varietà: al nero di seppia, allo zafferano, al pomodoro, alla rapa rossa, agli spinaci. Con varietà 10€ al kg",
       price: "8.50€ al kg",
-      icons: [imageUnavailableIcon],
+      icons: [
+        fettuccineIcon,
+        fettuccineRapaRossaIcon,
+        fettuccineSpinaciIcon,
+        fettuccineZafferanoIcon,
+      ],
     },
     {
       title: "Spaghetti chitarra",
@@ -30,7 +44,13 @@ export const menuData = {
       description:
         "Varietà: al nero di seppia, allo zafferano, al pomodoro, alla rapa rossa, agli spinaci. Con varietà 10€ al kg",
       price: "8.50€ al kg",
-      icons: [trenettePomodoroIcon, trenetteNeroDiSeppiaIcon, trenetteSpinaciIcon, trenetteRapaRossaIcon, trenetteZafferanoIcon],
+      icons: [
+        trenettePomodoroIcon,
+        trenetteNeroDiSeppiaIcon,
+        trenetteSpinaciIcon,
+        trenetteRapaRossaIcon,
+        trenetteZafferanoIcon,
+      ],
     },
     {
       title: "Pappardelle",
@@ -164,11 +184,5 @@ export const menuData = {
       icons: [imageUnavailableIcon],
     },
   ],
-  sughi: [
-    {
-      title: "Ragù bolognese",
-      price: "3€",
-      icons: [imageUnavailableIcon],
-    },
-  ],
+  sughi: [],
 };
