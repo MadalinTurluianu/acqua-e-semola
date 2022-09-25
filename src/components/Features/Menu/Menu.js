@@ -41,6 +41,7 @@ function Menu() {
             description={product.description}
             price={product.price}
             icons={product.icons}
+            listIndex={index}
             color={
               index % 2 === 0 ? "var(--color-yellow)" : "var(--color-green)"
             }

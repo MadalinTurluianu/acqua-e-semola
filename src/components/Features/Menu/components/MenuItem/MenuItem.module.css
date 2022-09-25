@@ -1,3 +1,30 @@
+@keyframes indicate {
+  0% {
+    fill: transparent;
+  }
+  74% {
+    fill: transparent;
+  }
+  75% {
+    transform: rotate(-45deg) translate(1rem, 3rem);
+  }
+  80% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  85% {
+    transform: rotate(-45deg) translate(1rem, 3rem);
+  }
+  90% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  95% {
+    transform: rotate(-45deg) translate(1rem, 3rem);
+  }
+  100% {
+    transform: rotate(-45deg) translate(1rem, 3rem);
+  }
+}
+
 .menuItem {
   display: flex;
   position: relative;
@@ -12,6 +39,17 @@
   bottom: 0;
   z-index: 2;
   background-color: var(--color-background);
+}
+
+.pointerIconContainer {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  fill: var(--color-green);
+  transform: rotate(-45deg);
+  right: 0;
+  bottom: 0;
+  animation: indicate 7s infinite;
 }
 
 .menuItem h3 {
@@ -36,7 +74,7 @@
 }
 
 .ingredients {
-  color: var(--text-shade)
+  color: var(--text-shade);
 }
 
 @media only screen and (max-width: 650px) {
