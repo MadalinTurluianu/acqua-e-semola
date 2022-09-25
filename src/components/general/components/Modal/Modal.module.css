@@ -1,7 +1,7 @@
 .modal {
   position: absolute;
   z-index: 10;
-  width: 110vw;
+  width: 100vw;
   height: 110vh;
   display: flex;
   align-items: center;
