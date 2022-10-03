@@ -9,3 +9,11 @@
 .mainContent h2 {
     text-align: center;
 }
+
+.presentation {
+  font-family: Menu-Font;
+  font-size: 1.3rem;
+  width: clamp(20rem, 50vw, 40rem);
+  text-align: center;
+
+}

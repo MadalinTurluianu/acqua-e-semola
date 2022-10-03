@@ -1,11 +1,14 @@
+import { useState } from "react";
 import styles from "./RotatingIcon.module.css";
 
 function RotatingIcon({ picture, style }) {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   return (
     <div className={styles.scalablePicture} style={style}>
       <div className={styles.voidCyrcle}>
         <div className={styles.imageWrapper}>
-          <img src={picture} alt="" />
+          <img onLoad={() => {setImageLoaded(true)}} src={picture} style={{display: imageLoaded ? "block" : "none"}} alt="" />
         </div>
       </div>
       <div className={styles.void1}></div>
