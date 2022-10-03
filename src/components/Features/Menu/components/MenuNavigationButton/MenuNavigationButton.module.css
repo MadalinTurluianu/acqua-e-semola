@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   width: 15rem;
+  padding: 0;
 }
 
 .selected {
