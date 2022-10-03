@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/acqua-e-semola/static/css/main.987437f3.css",
-    "main.js": "/acqua-e-semola/static/js/main.c1000e8e.js",
+    "main.js": "/acqua-e-semola/static/js/main.9c4a8f23.js",
     "static/media/Agnolotti.jpg": "/acqua-e-semola/static/media/Agnolotti.bc060ba6a5a9453ae1e1.jpg",
     "static/media/fettuccine-rapa-rossa_icon.jpg": "/acqua-e-semola/static/media/fettuccine-rapa-rossa_icon.7ede486fdf003deea578.jpg",
     "static/media/fettuccine_icon.jpg": "/acqua-e-semola/static/media/fettuccine_icon.140acf1084a6f87130af.jpg",
@@ -28,10 +28,10 @@
     "static/media/right-arrow.svg": "/acqua-e-semola/static/media/right-arrow.484c77baca8c309f35cebe2a65b28466.svg",
     "static/media/location.svg": "/acqua-e-semola/static/media/location.8ed820373498e050ba489683231bdef4.svg",
     "main.987437f3.css.map": "/acqua-e-semola/static/css/main.987437f3.css.map",
-    "main.c1000e8e.js.map": "/acqua-e-semola/static/js/main.c1000e8e.js.map"
+    "main.9c4a8f23.js.map": "/acqua-e-semola/static/js/main.9c4a8f23.js.map"
   },
   "entrypoints": [
     "static/css/main.987437f3.css",
-    "static/js/main.c1000e8e.js"
+    "static/js/main.9c4a8f23.js"
   ]
 }
