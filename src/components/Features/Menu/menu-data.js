@@ -12,6 +12,7 @@ import fettuccineIcon from "./assets/images/fettuccine_icon.jpg";
 import fettuccineRapaRossaIcon from "./assets/images/fettuccine-rapa-rossa_icon.jpg";
 import fettuccineSpinaciIcon from "./assets/images/fettuccine-spinaci_icon.jpg";
 import fettuccineZafferanoIcon from "./assets/images/fettuccine-zafferano_icon.jpg";
+import agnolottiIcon from "./assets/images/Agnolotti.jpg"
 
 export const menuData = {
   "pasta fresca": [
@@ -125,6 +126,11 @@ export const menuData = {
       title: "Cannelloni alla ricotta e spinaci",
       price: "17€ al kg",
       icons: [imageUnavailableIcon],
+    },
+    {
+      title: "Agnolotti",
+      price: "18€ al kg",
+      icons: [agnolottiIcon],
     },
   ],
   "piatti pronti": [

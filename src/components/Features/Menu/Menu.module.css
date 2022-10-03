@@ -8,7 +8,7 @@
 .title {
   font-family: Menu-Font;
   font-size: 2.5rem;
-  color: var(--color-darkgreen);
+  color: var(--color-green);
   text-shadow: 0px 1px 1px black;
   position: relative;
   margin-bottom: 4rem;
@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .products {
@@ -28,6 +28,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .navigation {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -41,16 +47,9 @@
 }
 
 @media only screen and (max-width: 500px) {
-
-  .navigation>button {
+  .navigation > button {
     margin: 0 0.5rem;
   }
 }
 
-@media only screen and (max-width: 380px) {
-
-  .navigation {
-    flex-direction: column;
-  }
-}
 
