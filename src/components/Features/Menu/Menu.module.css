@@ -33,6 +33,8 @@
 @media only screen and (max-width: 900px) {
   .navigation {
     flex-direction: column;
+    height: 10rem;
+    justify-content: space-between;
   }
 }
 
