@@ -1,12 +1,19 @@
 import { ReactComponent as PhoneIcon } from "./assets/images/phone.svg";
 import { ReactComponent as MailIcon } from "./assets/images/mail.svg";
 import { ReactComponent as LocationIcon } from "./assets/images/location.svg";
+import { ReactComponent as MobileIcon } from "./assets/images/mobile.svg";
 
 const contactData = [
   {
     title: "Tel:",
-    value: "+39 331 424 8260",
+    value: "+39 065 526 7908",
     Icon: PhoneIcon,
+    SpecialElement: <a href="tel:+39 065 526 7908">+39 065 526 7908</a>,
+  },
+  {
+    title: "Cel:",
+    value: "+39 331 424 8260",
+    Icon: MobileIcon,
     SpecialElement: <a href="tel:+39 331 424 8260">+39 331 424 8260</a>,
   },
   {

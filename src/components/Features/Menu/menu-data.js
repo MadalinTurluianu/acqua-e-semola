@@ -13,6 +13,9 @@ import fettuccineRapaRossaIcon from "./assets/images/fettuccine-rapa-rossa_icon.
 import fettuccineSpinaciIcon from "./assets/images/fettuccine-spinaci_icon.jpg";
 import fettuccineZafferanoIcon from "./assets/images/fettuccine-zafferano_icon.jpg";
 import agnolottiIcon from "./assets/images/Agnolotti.jpg"
+import ravioliRicottaSpinaciIcon from "./assets/images/ravioli-ricotta-spinaci.jpg"
+import pappardelleTMIcon from "./assets/images/pappardelle-tagliate-a-mano.jpg"
+import fettuccineTMIcon from "./assets/images/fettuccine-tagliate-a-mano.jpg"
 
 export const menuData = {
   "pasta fresca": [
@@ -70,12 +73,12 @@ export const menuData = {
     {
       title: "Fettuccine tagliate a mano",
       price: "10€ al kg",
-      icons: [imageUnavailableIcon],
+      icons: [fettuccineTMIcon],
     },
     {
       title: "Pappardelle tagliate a mano",
       price: "10€ al kg",
-      icons: [imageUnavailableIcon],
+      icons: [pappardelleTMIcon],
     },
     {
       title: "Gnocchi di patate",
@@ -125,7 +128,7 @@ export const menuData = {
     {
       title: "Cannelloni alla ricotta e spinaci",
       price: "17€ al kg",
-      icons: [imageUnavailableIcon],
+      icons: [ravioliRicottaSpinaciIcon],
     },
     {
       title: "Agnolotti",
