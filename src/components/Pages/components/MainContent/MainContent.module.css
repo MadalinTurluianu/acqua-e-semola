@@ -1,19 +1,24 @@
 .mainContent {
-    width: 90vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
+  width: 90vw;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .mainContent h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .presentation {
   font-family: Menu-Font;
   font-size: 1.3rem;
-  width: clamp(20rem, 50vw, 40rem);
+  width: 50vw;
+  min-width: 20rem;
+  max-width: 40rem;
   text-align: center;
-
 }

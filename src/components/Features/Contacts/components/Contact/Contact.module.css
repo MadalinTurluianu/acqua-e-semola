@@ -1,24 +1,28 @@
 .contact {
-    margin: 0.5rem 0;
-    display: flex;
-    align-items: center;
+  margin: 0.5rem 0;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex;
+  align-items: center;
 }
 
 .contact a {
-    color: var(--text-secondary);
-    text-decoration: none;
+  color: var(--text-secondary);
+  text-decoration: none;
 }
 
 .iconWrapper {
-    height: 1rem;
-    width: 1rem;
-    margin-right: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.5rem;
 }
 
 .contact path {
-    fill: var(--text-secondary);
+  fill: var(--text-secondary);
 }
 
 .contact span {
-    margin-right: 0.6rem;
+  margin-right: 0.6rem;
 }

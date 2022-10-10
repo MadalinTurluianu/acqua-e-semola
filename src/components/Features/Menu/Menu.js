@@ -32,7 +32,7 @@ function Menu() {
           />
         ))}
       </div>
-      <LineBar width="clamp(20rem, 100%, 60rem)" />
+      <LineBar width="100%" minWidth="20rem" maxWidth="60rem" />
 
       <div className={styles.products}>
         {menuToShow.map((product, index) => (

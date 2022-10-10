@@ -10,8 +10,8 @@ html {
   --color-shade: #a4a3a3;
   --color-shadow: #d5d4d4;
   --color-background: #d0dece;
-  --text-primary: black;
-  --text-secondary: white;
+  --text-primary: #000000;
+  --text-secondary: #ffffff;
   --text-shade: #646464;
   font-size: clamp(90%, 2vw, 100%);
 }

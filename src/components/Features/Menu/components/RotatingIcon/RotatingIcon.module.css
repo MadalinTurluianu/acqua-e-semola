@@ -1,24 +1,30 @@
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
-  } 100% {
+  }
+  100% {
     transform: rotate(-360deg);
   }
 }
 
 @keyframes invert-rotate {
   0% {
-    transform: rotate(0deg) scale(1.1);
-  } 100% {
-    transform: rotate(360deg) scale(1.1);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 
 .scalablePicture {
   animation: rotate 30s infinite linear;
-  border-radius: 50%;
+  border-radius: 100px;
   height: 9.1rem;
   width: 9.1rem;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,13 +33,18 @@
 }
 
 .voidCyrcle {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--color-background);
-  border-radius: 50%;
-  height: 8.7rem;
-  width: 8.7rem;
+  border-radius: 100px;
+  height: 96%;
+  width: 96%;
+  margin: 0;
 }
 
 .void1 {
@@ -55,7 +66,7 @@
   z-index: 100;
   width: 0.8rem;
   height: 2rem;
-  transform: rotate(30deg); 
+  transform: rotate(30deg);
 }
 
 .void3 {
@@ -71,15 +82,15 @@
 
 .imageWrapper {
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 100px; 
   height: 90%;
   width: 90%;
 }
 
 .scalablePicture img {
+  overflow: hidden;
+  border-radius: 100px;
   animation: invert-rotate 30s infinite linear;
-  border-radius: 50%;
   width: 100%;
   height: 100%;
-  transform: scale(1.1);
 }

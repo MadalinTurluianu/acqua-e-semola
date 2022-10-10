@@ -1,3 +1,5 @@
 .logo {
-    width: clamp(20rem, 70%, 50rem);
+  min-width: 20rem;
+  width: 70%;
+  max-width: 50rem;
 }

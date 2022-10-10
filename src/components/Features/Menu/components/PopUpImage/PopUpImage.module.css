@@ -1,6 +1,10 @@
 .container {
-  width: clamp(18rem, 50vw, 30rem);
-  height: clamp(18rem, 50vw, 30rem);
+  width: 50vw;
+  height: 50vw;
+  min-width: 18rem;
+  min-height: 18rem;
+  max-width: 30rem;
+  max-height: 30rem;
   border-radius: 10px;
   position: relative;
   margin-bottom: 10vh;
@@ -17,6 +21,10 @@
   top: 0;
   height: 100%;
   width: 3.5rem;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
   display: flex;
   align-items: center;
   fill: var(--color-green);
@@ -40,4 +48,3 @@
     margin-left: 3.5rem;
   }
 }
-

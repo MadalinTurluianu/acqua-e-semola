@@ -16,14 +16,10 @@ import agnolottiIcon from "./assets/images/Agnolotti.jpg"
 import ravioliRicottaSpinaciIcon from "./assets/images/ravioli-ricotta-spinaci.jpg"
 import pappardelleTMIcon from "./assets/images/pappardelle-tagliate-a-mano.jpg"
 import fettuccineTMIcon from "./assets/images/fettuccine-tagliate-a-mano.jpg"
+import cannelloniCarneIcon from "./assets/images/cannelloni-carne.jpg"
 
 export const menuData = {
   "pasta fresca": [
-    {
-      title: "Tortellini di carne",
-      price: "20€ al kg",
-      icons: [tortelliniIcon],
-    },
     {
       title: "Fettuccine",
       description:
@@ -93,7 +89,7 @@ export const menuData = {
     {
       title: "Ravioli alla ricotta e spinaci",
       price: "18€ al kg",
-      icons: [imageUnavailableIcon],
+      icons: [ravioliRicottaSpinaciIcon],
     },
     {
       title: "Ravioli alla ricotta e prezzemolo",
@@ -118,7 +114,7 @@ export const menuData = {
     {
       title: "Cannelloni di Carne",
       price: "18€ al kg",
-      icons: [imageUnavailableIcon],
+      icons: [cannelloniCarneIcon],
     },
     {
       title: "Cannelloni alla ricotta",
@@ -128,7 +124,12 @@ export const menuData = {
     {
       title: "Cannelloni alla ricotta e spinaci",
       price: "17€ al kg",
-      icons: [ravioliRicottaSpinaciIcon],
+      icons: [imageUnavailableIcon],
+    },
+    {
+      title: "Tortellini di carne",
+      price: "20€ al kg",
+      icons: [tortelliniIcon],
     },
     {
       title: "Agnolotti",
