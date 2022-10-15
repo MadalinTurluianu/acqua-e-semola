@@ -42,10 +42,10 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
   .navigation {
     flex-direction: column;
-    height: 10rem;
+    height: 12rem;
     justify-content: space-between;
   }
 }

@@ -10,8 +10,10 @@ import styles from "./Menu.module.css";
 
 function Menu() {
   const [selectedMenu, setSelectedMenu] = useState("pasta fresca");
+  const isSpecial = selectedMenu.includes("_special");
 
-  const menuToShow = menuData[selectedMenu];
+  const menuToShow = isSpecial ? menuData[selectedMenu].products : menuData[selectedMenu];
+  console.log(isSpecial);
 
   const menuTypes = Object.keys(menuData);
 
@@ -25,10 +27,12 @@ function Menu() {
       <div className={styles.navigation}>
         {menuTypes.map((type) => (
           <MenuNavigationButton
-            content={type[0].toUpperCase() + type.slice(1)}
+            content={type}
+            isSpecial={type.includes("_special")}
             clickHandler={clickHandler}
             selected={selectedMenu === type}
             key={type}
+            icon={menuData[type].icon}
           />
         ))}
       </div>

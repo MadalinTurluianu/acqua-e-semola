@@ -11,8 +11,17 @@
   background-size: contain;
   width: 15rem;
   padding: 0;
+  position: relative;
 }
 
 .selected {
   color: var(--color-darkgreen);
 }
+
+.icon {
+  position: absolute;
+  left: 2.4rem;
+  top: -1.8rem;
+  width: 2.7rem;
+}
+

@@ -12,13 +12,23 @@ import fettuccineIcon from "./assets/images/fettuccine_icon.jpg";
 import fettuccineRapaRossaIcon from "./assets/images/fettuccine-rapa-rossa_icon.jpg";
 import fettuccineSpinaciIcon from "./assets/images/fettuccine-spinaci_icon.jpg";
 import fettuccineZafferanoIcon from "./assets/images/fettuccine-zafferano_icon.jpg";
-import agnolottiIcon from "./assets/images/Agnolotti.jpg"
-import ravioliRicottaSpinaciIcon from "./assets/images/ravioli-ricotta-spinaci.jpg"
-import pappardelleTMIcon from "./assets/images/pappardelle-tagliate-a-mano.jpg"
-import fettuccineTMIcon from "./assets/images/fettuccine-tagliate-a-mano.jpg"
-import cannelloniCarneIcon from "./assets/images/cannelloni-carne.jpg"
+import agnolottiIcon from "./assets/images/Agnolotti.jpg";
+import ravioliRicottaSpinaciIcon from "./assets/images/ravioli-ricotta-spinaci.jpg";
+import pappardelleTMIcon from "./assets/images/pappardelle-tagliate-a-mano.jpg";
+import fettuccineTMIcon from "./assets/images/fettuccine-tagliate-a-mano.jpg";
+import cannelloniCarneIcon from "./assets/images/cannelloni-carne.jpg";
+import cannelloniVerdiCarneIcon from "./assets/images/cannelloni-verdi-di-carne.jpg";
+import lasagnaVerdeIcon from "./assets/images/lasagna-verde-al-sugo.jpg";
+import spaghettiChitarraIcon from "./assets/images/spaghetti-chitarra.jpg";
+import halloweenIcon from "./assets/images/halloween.png";
 
 export const menuData = {
+  halloween_special: {
+    products: [
+
+    ],
+    icon: halloweenIcon
+  },
   "pasta fresca": [
     {
       title: "Fettuccine",
@@ -37,7 +47,7 @@ export const menuData = {
       description:
         "Varietà: al nero di seppia, allo zafferano, al pomodoro, alla rapa rossa, agli spinaci al basilico. Con varietà 10€ al kg",
       price: "8.50€ al kg",
-      icons: [imageUnavailableIcon],
+      icons: [spaghettiChitarraIcon],
     },
     {
       title: "Trenette",
@@ -113,8 +123,9 @@ export const menuData = {
     },
     {
       title: "Cannelloni di Carne",
+      description: "Impasto semplice o agli spinaci",
       price: "18€ al kg",
-      icons: [cannelloniCarneIcon],
+      icons: [cannelloniCarneIcon, cannelloniVerdiCarneIcon],
     },
     {
       title: "Cannelloni alla ricotta",
@@ -156,7 +167,7 @@ export const menuData = {
       price: "13€ al kg",
       description:
         "Già cotta a 15€ al kg",
-      icons: [imageUnavailableIcon],
+      icons: [lasagnaVerdeIcon],
     },
     {
       title: "Lasagna zucchine e speck",
@@ -198,4 +209,5 @@ export const menuData = {
       icons: [imageUnavailableIcon],
     },
   ],
+
 };
