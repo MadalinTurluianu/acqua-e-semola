@@ -33,6 +33,7 @@ function Menu() {
             selected={selectedMenu === type}
             key={type}
             icon={menuData[type].icon}
+            colors={menuData[type].colors}
           />
         ))}
       </div>

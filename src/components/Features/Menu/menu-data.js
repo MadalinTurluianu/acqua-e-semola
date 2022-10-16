@@ -27,7 +27,8 @@ export const menuData = {
     products: [
 
     ],
-    icon: halloweenIcon
+    icon: halloweenIcon,
+    colors: ["orange", "purple"]
   },
   "pasta fresca": [
     {
