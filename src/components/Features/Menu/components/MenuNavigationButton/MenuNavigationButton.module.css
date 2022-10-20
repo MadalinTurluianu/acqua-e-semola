@@ -12,6 +12,7 @@
   width: 15rem;
   padding: 0;
   position: relative;
+  color: var(--text-primary);
 }
 
 .selected {

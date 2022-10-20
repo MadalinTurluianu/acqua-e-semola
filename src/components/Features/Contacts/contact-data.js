@@ -18,15 +18,15 @@ const contactData = [
   },
   {
     title: "Email:",
-    value: "acqua&semola@gmail.com",
+    value: "acqua.semola@gmail.com",
     Icon: MailIcon,
     SpecialElement: (
       <a
-        href="mailto:acqua&semola@gmail.com"
+        href="mailto:acqua.semola@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        acqua&semola@gmail.com
+        acqua.semola@gmail.com
       </a>
     ),
   },

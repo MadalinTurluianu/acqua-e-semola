@@ -38,6 +38,7 @@ function Menu() {
         ))}
       </div>
       <LineBar width="100%" minWidth="20rem" maxWidth="60rem" />
+      {menuData[selectedMenu].message && <p className={styles.specialMessage}>{menuData[selectedMenu].message}</p>}
 
       <div className={styles.products}>
         {menuToShow.map((product, index) => (

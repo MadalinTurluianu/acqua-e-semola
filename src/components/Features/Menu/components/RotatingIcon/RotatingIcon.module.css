@@ -7,20 +7,11 @@
   }
 }
 
-@keyframes invert-rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.scalablePicture {
-  animation: rotate 30s infinite linear;
+.container {
   border-radius: 100px;
   height: 9.1rem;
   width: 9.1rem;
+  position: relative;
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox; /* TWEENER - IE 10 */
@@ -28,8 +19,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   cursor: pointer;
+}
+
+.border {
+  animation: rotate 30s infinite linear;
+  border-radius: 100px;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .voidCyrcle {
@@ -81,16 +85,16 @@
 }
 
 .imageWrapper {
+  position: absolute;
   overflow: hidden;
-  border-radius: 100px; 
+  border-radius: 100px;
   height: 90%;
   width: 90%;
 }
 
-.scalablePicture img {
+.imageWrapper img {
   overflow: hidden;
   border-radius: 100px;
-  animation: invert-rotate 30s infinite linear;
   width: 100%;
   height: 100%;
 }

@@ -21,14 +21,32 @@ import cannelloniVerdiCarneIcon from "./assets/images/cannelloni-verdi-di-carne.
 import lasagnaVerdeIcon from "./assets/images/lasagna-verde-al-sugo.jpg";
 import spaghettiChitarraIcon from "./assets/images/spaghetti-chitarra.jpg";
 import halloweenIcon from "./assets/images/halloween.png";
+import gnocchiNeroDiSeppiaIcon from "./assets/images/gnocchi-nero-di-seppia_icon.jpg";
+import gnocchiZuccaIcon from "./assets/images/gnocchi-zucca_icon.jpg";
+import fettuccineZuccaIcon from "./assets/images/fettuccine_zucca.jpg";
 
 export const menuData = {
   halloween_special: {
     products: [
-
+      {
+        title: "Gnocchi al nero di seppia",
+        price: "10€ al kg",
+        icons: [gnocchiNeroDiSeppiaIcon],
+      },
+      {
+        title: "Gnocchi con zucca",
+        price: "10€ al kg",
+        icons: [gnocchiZuccaIcon],
+      },
+      {
+        title: "Fettuccine alla zucca",
+        price: "10€ al kg",
+        icons: [fettuccineZuccaIcon],
+      }
     ],
     icon: halloweenIcon,
-    colors: ["orange", "purple"]
+    colors: ["orange", "purple"],
+    message: "I prodotti saranno disponibili fino al 13 Novembre"
   },
   "pasta fresca": [
     {
