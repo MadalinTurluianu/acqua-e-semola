@@ -24,6 +24,37 @@ import halloweenIcon from "./assets/images/halloween.png";
 import gnocchiNeroDiSeppiaIcon from "./assets/images/gnocchi-nero-di-seppia_icon.jpg";
 import gnocchiZuccaIcon from "./assets/images/gnocchi-zucca_icon.jpg";
 import fettuccineZuccaIcon from "./assets/images/fettuccine_zucca.jpg";
+import ravioliNeriOrataIcon from "./assets/images/ravioli-al-nero-di-seppia-pesce.jpg";
+import lasagnaZuccaSalsicciaIcon from "./assets/images/lasagnazuccasalsiccia.jpg";
+import pappardelleXXLIcon from "./assets/images/pappardelle-xxl.jpg";
+
+const MONOPORZIONE_DPV = "Monoporzione da portar via 6€.";
+
+const MultilineVariety = (
+  <>
+    Disponibile anche con impasto vegano (con acqua e farina) 8€ al kg.
+    <br />
+    Varietà: al nero di seppia, allo zafferano, al pomodoro, alla rapa rossa,
+    agli spinaci, al basilico. Con varietà 10€ al kg.
+  </>
+);
+
+const MultilineTMVariety = (
+  <>
+    Disponibile anche con impasto vegano (con acqua e farina) 9€ al kg.
+    <br />
+    Varietà: al nero di seppia, allo zafferano, al pomodoro, alla rapa rossa,
+    agli spinaci, al basilico. Con varietà 10€ al kg.
+  </>
+);
+
+const multilineLasagna = (
+  <>
+    Disponibile anche pronta a cuocere.
+    <br />
+    {MONOPORZIONE_DPV}
+  </>
+);
 
 export const menuData = {
   halloween_special: {
@@ -42,17 +73,22 @@ export const menuData = {
         title: "Fettuccine alla zucca",
         price: "10€ al kg",
         icons: [fettuccineZuccaIcon],
-      }
+      },
+      {
+        title: "Lasagna con zucca e polpettine di salsiccia",
+        price: "13€ al kg",
+        description: multilineLasagna,
+        icons: [lasagnaZuccaSalsicciaIcon],
+      },
     ],
     icon: halloweenIcon,
     colors: ["orange", "purple"],
-    message: "I prodotti saranno disponibili fino al 13 Novembre"
+    message: "I prodotti saranno disponibili fino al 13 Novembre",
   },
   "pasta fresca": [
     {
       title: "Fettuccine",
-      description:
-        "Varietà: al nero di seppia, allo zafferano, al pomodoro, alla rapa rossa, agli spinaci, al basilico. Con varietà 10€ al kg",
+      description: MultilineVariety,
       price: "8.50€ al kg",
       icons: [
         fettuccineIcon,
@@ -63,15 +99,13 @@ export const menuData = {
     },
     {
       title: "Spaghetti chitarra",
-      description:
-        "Varietà: al nero di seppia, allo zafferano, al pomodoro, alla rapa rossa, agli spinaci al basilico. Con varietà 10€ al kg",
+      description: MultilineVariety,
       price: "8.50€ al kg",
       icons: [spaghettiChitarraIcon],
     },
     {
       title: "Trenette",
-      description:
-        "Varietà: al nero di seppia, allo zafferano, al pomodoro, alla rapa rossa, agli spinaci al basilico. Con varietà 10€ al kg",
+      description: MultilineVariety,
       price: "8.50€ al kg",
       icons: [
         trenettePomodoroIcon,
@@ -82,26 +116,26 @@ export const menuData = {
       ],
     },
     {
-      title: "Pappardelle",
-      description:
-        "Varietà: al nero di seppia, allo zafferano, al pomodoro, alla rapa rossa, agli spinaci al basilico. Con varietà 10€ al kg",
-      price: "8.50€ al kg",
-      icons: [imageUnavailableIcon],
-    },
-    {
       title: "Reginette",
-      description:
-        "Varietà: al nero di seppia, allo zafferano, al pomodoro, alla rapa rossa, agli spinaci al basilico. Con varietà 10€ al kg",
+      description: MultilineVariety,
       price: "8.50€ al kg",
       icons: [reginetteIcon],
     },
     {
+      title: "Pappardelle XXL",
+      description: MultilineVariety,
+      price: "8.50€ al kg",
+      icons: [pappardelleXXLIcon],
+    },
+    {
       title: "Fettuccine tagliate a mano",
+      description: MultilineTMVariety,
       price: "10€ al kg",
       icons: [fettuccineTMIcon],
     },
     {
       title: "Pappardelle tagliate a mano",
+      description: MultilineTMVariety,
       price: "10€ al kg",
       icons: [pappardelleTMIcon],
     },
@@ -109,6 +143,11 @@ export const menuData = {
       title: "Gnocchi di patate",
       price: "9€ al kg",
       icons: [gnocchiIcon],
+    },
+    {
+      title: "Agnolotti",
+      price: "18€ al kg",
+      icons: [agnolottiIcon],
     },
     {
       title: "Ravioli alla ricotta",
@@ -141,8 +180,14 @@ export const menuData = {
       icons: [imageUnavailableIcon],
     },
     {
+      title: "Ravioli al nero di seppia ripieni di pesce",
+      description: "Con orata o spigola.",
+      price: "22€ al kg",
+      icons: [ravioliNeriOrataIcon],
+    },
+    {
       title: "Cannelloni di Carne",
-      description: "Impasto semplice o agli spinaci",
+      description: "Impasto semplice o agli spinaci.",
       price: "18€ al kg",
       icons: [cannelloniCarneIcon, cannelloniVerdiCarneIcon],
     },
@@ -161,11 +206,6 @@ export const menuData = {
       price: "20€ al kg",
       icons: [tortelliniIcon],
     },
-    {
-      title: "Agnolotti",
-      price: "18€ al kg",
-      icons: [agnolottiIcon],
-    },
   ],
   "piatti pronti": [
     {
@@ -176,23 +216,20 @@ export const menuData = {
     {
       title: "Lasagna al ragù rosso pronta a cuocere",
       price: "13€ al kg",
-      description:
-        "Già cotta a 15€ al kg",
+      description: MONOPORZIONE_DPV,
       icons: [imageUnavailableIcon],
     },
 
     {
       title: "Lasagna verde al ragù rosso pronta a cuocere",
       price: "13€ al kg",
-      description:
-        "Già cotta a 15€ al kg",
+      description: MONOPORZIONE_DPV,
       icons: [lasagnaVerdeIcon],
     },
     {
       title: "Lasagna zucchine e speck",
       price: "13€ al kg",
-      description:
-        "Già cotta a 15€ al kg",
+      description: MONOPORZIONE_DPV,
       icons: [imageUnavailableIcon],
     },
     {
@@ -228,5 +265,4 @@ export const menuData = {
       icons: [imageUnavailableIcon],
     },
   ],
-
 };
