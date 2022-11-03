@@ -13,6 +13,7 @@ function Contacts() {
           value={contact.value}
           Icon={contact.Icon}
           SpecialElement={contact.SpecialElement}
+          ExtraElement={contact.ExtraElement}
           key={`contacts${index}`}
         />
       ))}
