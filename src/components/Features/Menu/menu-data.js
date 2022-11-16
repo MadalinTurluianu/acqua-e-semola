@@ -57,6 +57,7 @@ const multilineLasagna = (
 );
 
 export const menuData = {
+  /* 
   halloween_special: {
     products: [
       {
@@ -85,6 +86,7 @@ export const menuData = {
     colors: ["orange", "purple"],
     message: "I prodotti saranno disponibili fino al 13 Novembre",
   },
+   */
   "pasta fresca": [
     {
       title: "Fettuccine",
@@ -96,6 +98,11 @@ export const menuData = {
         fettuccineSpinaciIcon,
         fettuccineZafferanoIcon,
       ],
+    },
+    {
+      title: "Fettuccine alla zucca",
+      price: "10€ al kg",
+      icons: [fettuccineZuccaIcon],
     },
     {
       title: "Spaghetti chitarra",
@@ -143,6 +150,16 @@ export const menuData = {
       title: "Gnocchi di patate",
       price: "9€ al kg",
       icons: [gnocchiIcon],
+    },
+    {
+      title: "Gnocchi al nero di seppia",
+      price: "10€ al kg",
+      icons: [gnocchiNeroDiSeppiaIcon],
+    },
+    {
+      title: "Gnocchi con zucca",
+      price: "10€ al kg",
+      icons: [gnocchiZuccaIcon],
     },
     {
       title: "Agnolotti",
@@ -231,6 +248,12 @@ export const menuData = {
       price: "13€ al kg",
       description: MONOPORZIONE_DPV,
       icons: [imageUnavailableIcon],
+    },
+    {
+      title: "Lasagna con zucca e polpettine di salsiccia",
+      price: "13€ al kg",
+      description: multilineLasagna,
+      icons: [lasagnaZuccaSalsicciaIcon],
     },
     {
       title: "Cannelloni di ricotta cotti",
