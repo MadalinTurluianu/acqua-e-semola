@@ -83,7 +83,7 @@
   color: var(--text-shade);
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1200px) {
   .menuItem {
     flex-direction: column;
     margin-bottom: 2rem;

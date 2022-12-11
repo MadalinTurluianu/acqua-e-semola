@@ -99,6 +99,69 @@ export const menuData = {
         price: "10€ al kg",
         icons: [fettuccineCastagneIcon],
       },
+      {
+        title: "Lasagna con zucca, provola e speck",
+        price: "13€ al kg",
+        icons: [imageUnavailableIcon],
+      },
+      {
+        title: "Lasagna con ragù di pesce fresco in salsa rosa",
+        price: "22€ al kg",
+        icons: [imageUnavailableIcon],
+      },
+      {
+        title: "Lasagna con carciofi, crema di taleggio e salsiccia",
+        price: "18€ al kg",
+        icons: [imageUnavailableIcon],
+      },
+      {
+        title: "Ravioli rossi con ripieno di radicchio, gorgonzola e noci",
+        price: "15€ al kg",
+        icons: [imageUnavailableIcon],
+      },
+      {
+        title: "Crespelle per il brodo",
+        price: "10€ al kg",
+        icons: [imageUnavailableIcon],
+      },
+      {
+        title:
+          "Ravioli al nero di seppia con ripieno di pesce fresco e pane profumato",
+        price: "20€ al kg",
+        icons: [imageUnavailableIcon],
+      },
+      {
+        title: "Quadrotti da brodo con aggiunta carne di gallina",
+        price: "21€ al kg",
+        icons: [imageUnavailableIcon],
+      },
+      {
+        title: "Quadrotti da brodo con crema di parmigiano",
+        price: "18€ al kg",
+        icons: [imageUnavailableIcon],
+      },
+      {
+        title: "Cannelloni verdi o rossi (sfoglia) ripieni di carne",
+        price: "18€ al kg",
+        icons: [imageUnavailableIcon],
+      },
+      {
+        title:
+          "Cannelloni verdi o rossi (sfoglia) ripieni di ricotta e spinaci",
+        price: "18€ al kg",
+        icons: [imageUnavailableIcon],
+      },
+      {
+        title:
+          "Cannelloni verdi o rossi (sfoglia) ripieni con crema di ricotta e parmigiano",
+        price: "18€ al kg",
+        icons: [imageUnavailableIcon],
+      },
+      {
+        title: "Dolce stella",
+        price: "14€ al kg",
+        icons: [imageUnavailableIcon],
+      },
     ],
     icon: christmasIcon,
     colors: ["#b00d05", "#27780a"],
