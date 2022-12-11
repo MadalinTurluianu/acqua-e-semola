@@ -21,12 +21,17 @@ import cannelloniVerdiCarneIcon from "./assets/images/cannelloni-verdi-di-carne.
 import lasagnaVerdeIcon from "./assets/images/lasagna-verde-al-sugo.jpg";
 import spaghettiChitarraIcon from "./assets/images/spaghetti-chitarra.jpg";
 import halloweenIcon from "./assets/images/halloween.png";
+import christmasIcon from "./assets/images/christmas.png";
 import gnocchiNeroDiSeppiaIcon from "./assets/images/gnocchi-nero-di-seppia_icon.jpg";
 import gnocchiZuccaIcon from "./assets/images/gnocchi-zucca_icon.jpg";
 import fettuccineZuccaIcon from "./assets/images/fettuccine_zucca.jpg";
 import ravioliNeriOrataIcon from "./assets/images/ravioli-al-nero-di-seppia-pesce.jpg";
 import lasagnaZuccaSalsicciaIcon from "./assets/images/lasagnazuccasalsiccia.jpg";
 import pappardelleXXLIcon from "./assets/images/pappardelle-xxl.jpg";
+import sugoRossoIcon from "./assets/images/sugo-semplice.jpg";
+import raguRossoIcon from "./assets/images/sugo-al-ragu.jpg";
+import raguZucchineSpeckIcon from "./assets/images/sugo-zucchine-speck.jpg";
+import fettuccineCastagneIcon from "./assets/images/fettuccine-castagne.jpg";
 
 const MONOPORZIONE_DPV = "Monoporzione da portar via 6€.";
 
@@ -87,6 +92,18 @@ export const menuData = {
     message: "I prodotti saranno disponibili fino al 13 Novembre",
   },
    */
+  natale_special: {
+    products: [
+      {
+        title: "Fettuccine con farina di castagne",
+        price: "10€ al kg",
+        icons: [fettuccineCastagneIcon],
+      },
+    ],
+    icon: christmasIcon,
+    colors: ["#b00d05", "#27780a"],
+    message: "",
+  },
   "pasta fresca": [
     {
       title: "Fettuccine",
@@ -275,17 +292,17 @@ export const menuData = {
     {
       title: "Ragù rosso",
       price: "15€ al kg",
-      icons: [imageUnavailableIcon],
+      icons: [raguRossoIcon],
     },
     {
       title: "Ragù zucchine e speck",
       price: "14€ al kg",
-      icons: [imageUnavailableIcon],
+      icons: [raguZucchineSpeckIcon],
     },
     {
       title: "Sugo rosso al profumo di basilico",
       price: "8€ al kg",
-      icons: [imageUnavailableIcon],
+      icons: [sugoRossoIcon],
     },
   ],
 };
