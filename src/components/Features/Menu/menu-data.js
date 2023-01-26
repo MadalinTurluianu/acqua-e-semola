@@ -34,6 +34,7 @@ import raguZucchineSpeckIcon from "./assets/images/sugo-zucchine-speck.jpg";
 import fettuccineCastagneIcon from "./assets/images/fettuccine-castagne.jpg";
 import crespellePerIlBrodoIcon from "./assets/images/Crespelle per il brodo.jpg";
 import dolceStellaIcon from "./assets/images/dolce-stella.jpg";
+import lasagnaBroccoliIcon from "./assets/images/lasagna-broccoli_icon.jpg";
 
 const MONOPORZIONE_DPV = "Monoporzione da portar via 6€.";
 
@@ -306,6 +307,11 @@ export const menuData = {
       price: "20€ al kg",
       icons: [tortelliniIcon],
     },
+    {
+      title: "Quadrotti da brodo con aggiunta carne di gallina",
+      price: "21€ al kg",
+      icons: [imageUnavailableIcon],
+    },
   ],
   "piatti pronti": [
     {
@@ -337,6 +343,12 @@ export const menuData = {
       price: "13€ al kg",
       description: multilineLasagna,
       icons: [lasagnaZuccaSalsicciaIcon],
+    },
+    {
+      title: "Lasagnetta con broccoli siciliani provola e salsiccia",
+      price: "13€ al kg",
+      description: MONOPORZIONE_DPV,
+      icons: [lasagnaBroccoliIcon],
     },
     {
       title: "Cannelloni di ricotta cotti",
