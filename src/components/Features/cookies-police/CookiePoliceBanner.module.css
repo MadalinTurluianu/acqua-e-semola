@@ -19,6 +19,20 @@
   max-width: 50rem;
 }
 
+.textContainer p {
+  padding-right: 2rem;
+}
+
+.buttonsContainer {
+  width: 100%;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex;
+  justify-content: center;
+}
+
 .buttonsContainer button {
   margin: 1rem 2rem;
   border: none;
@@ -27,8 +41,9 @@
   color: white;
   cursor: pointer;
   font-size: 14px;
+  width: 8rem;
 }
 
-.buttonsContainer button + button{
+.buttonsContainer button + button {
   background-color: black;
 }

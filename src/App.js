@@ -3,9 +3,13 @@ import CookiePoliceBanner from "./components/features/cookies-police/CookiePolic
 import { useState } from "react";
 
 function App() {
-  const [cookiesAllowed, setCookiesAllowed] = useState(false);
+  const cookiesAlreadyChecked = localStorage.getItem("cookies-accepted");
+
+  const [cookiesAllowed, setCookiesAllowed] = useState(
+    cookiesAlreadyChecked === "yes"
+  );
   const [cookiesBannerIsShown, setCookiesBannerIsShown] = useState(
-    localStorage.getItem("cookies-accepted") === "yes" ? false : true
+    cookiesAlreadyChecked == null
   );
 
   return (
@@ -20,6 +24,7 @@ function App() {
           onReject={() => {
             setCookiesAllowed(false);
             setCookiesBannerIsShown(false);
+            localStorage.setItem("cookies-accepted", "no");
           }}
         />
       )}
