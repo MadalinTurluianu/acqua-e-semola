@@ -13,7 +13,6 @@ function Menu() {
   const isSpecial = selectedMenu.includes("_special");
 
   const menuToShow = isSpecial ? menuData[selectedMenu].products : menuData[selectedMenu];
-  console.log(isSpecial);
 
   const menuTypes = Object.keys(menuData);
 

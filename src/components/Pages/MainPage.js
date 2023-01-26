@@ -4,12 +4,12 @@ import Header from "./components/Header/Header";
 
 import styles from "./MainPage.module.css";
 
-function MainPage() {
+function MainPage({ cookiesAllowed }) {
   return (
     <div className={styles.mainPage}>
       <Header />
       <MainContent />
-      <Footer />
+      <Footer cookiesAllowed={cookiesAllowed}/>
     </div>
   );
 }

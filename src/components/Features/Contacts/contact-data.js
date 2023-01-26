@@ -42,6 +42,7 @@ const contactData = [
   {
     title: "Indirizzo:",
     value: "Via Pescara 10 - Pavona",
+    hasCookies: true,
     Icon: LocationIcon,
     SpecialElement: (
       <a
@@ -75,7 +76,7 @@ const contactData = [
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div style={{width: "2rem"}}>
+        <div style={{ width: "2rem" }}>
           <InstagramIcon />
         </div>
       </a>

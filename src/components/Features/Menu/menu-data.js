@@ -32,6 +32,8 @@ import sugoRossoIcon from "./assets/images/sugo-semplice.jpg";
 import raguRossoIcon from "./assets/images/sugo-al-ragu.jpg";
 import raguZucchineSpeckIcon from "./assets/images/sugo-zucchine-speck.jpg";
 import fettuccineCastagneIcon from "./assets/images/fettuccine-castagne.jpg";
+import crespellePerIlBrodoIcon from "./assets/images/Crespelle per il brodo.jpg";
+import dolceStellaIcon from "./assets/images/dolce-stella.jpg";
 
 const MONOPORZIONE_DPV = "Monoporzione da portar via 6€.";
 
@@ -91,7 +93,7 @@ export const menuData = {
     colors: ["orange", "purple"],
     message: "I prodotti saranno disponibili fino al 13 Novembre",
   },
-   */
+
   natale_special: {
     products: [
       {
@@ -122,7 +124,7 @@ export const menuData = {
       {
         title: "Crespelle per il brodo",
         price: "10€ al kg",
-        icons: [imageUnavailableIcon],
+        icons: [crespellePerIlBrodoIcon],
       },
       {
         title:
@@ -160,13 +162,14 @@ export const menuData = {
       {
         title: "Dolce stella",
         price: "14€ al kg",
-        icons: [imageUnavailableIcon],
+        icons: [dolceStellaIcon],
       },
     ],
     icon: christmasIcon,
     colors: ["#b00d05", "#27780a"],
     message: "",
   },
+  */
   "pasta fresca": [
     {
       title: "Fettuccine",

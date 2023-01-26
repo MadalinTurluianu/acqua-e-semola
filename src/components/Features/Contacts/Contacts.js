@@ -4,7 +4,7 @@ import contactData from "./contact-data";
 
 import styles from "./Contacts.module.css";
 
-function Contacts() {
+function Contacts({ cookiesAllowed }) {
   return (
     <section className={styles.contacts}>
       {contactData.map((contact, index) => (
@@ -13,7 +13,9 @@ function Contacts() {
           value={contact.value}
           Icon={contact.Icon}
           SpecialElement={contact.SpecialElement}
-          ExtraElement={contact.ExtraElement}
+          ExtraElement={
+            contact.hasCookies && !cookiesAllowed ? null : contact.ExtraElement
+          }
           key={`contacts${index}`}
         />
       ))}
