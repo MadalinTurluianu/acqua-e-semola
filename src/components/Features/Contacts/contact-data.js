@@ -3,6 +3,7 @@ import { ReactComponent as MailIcon } from "./assets/images/mail.svg";
 import { ReactComponent as LocationIcon } from "./assets/images/location.svg";
 import { ReactComponent as MobileIcon } from "./assets/images/mobile.svg";
 import { ReactComponent as InstagramIcon } from "./assets/images/instagram.svg";
+import { ReactComponent as FacebookIcon } from "./assets/images/facebook.svg";
 
 const contactData = [
   {
@@ -71,15 +72,34 @@ const contactData = [
     value: "Vieni a trovarci anche sui nostri social:",
     Icon: null,
     ExtraElement: (
-      <a
-        href="https://www.instagram.com/invites/contact/?i=1wxgg9s3qfhcp&utm_content=pnlvsu3"
-        target="_blank"
-        rel="noopener noreferrer"
+      <div
+        style={{
+          display: "-webkit-box",
+          display: "-moz-box",
+          display: "-ms-flexbox",
+          display: "-webkit-flex",
+          display: "flex",
+        }}
       >
-        <div style={{ width: "2rem" }}>
-          <InstagramIcon />
-        </div>
-      </a>
+        <a
+          href="https://www.instagram.com/invites/contact/?i=1wxgg9s3qfhcp&utm_content=pnlvsu3"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div style={{ width: "2rem", margin: "0 0.5rem" }}>
+            <InstagramIcon />
+          </div>
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100069152929331"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div style={{ width: "2rem", margin: "0 0.5rem" }}>
+            <FacebookIcon />
+          </div>
+        </a>
+      </div>
     ),
   },
 ];
